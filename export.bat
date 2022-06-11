@@ -1,7 +1,7 @@
 @echo off
 title [convert excel to json]
-echo press any button to start.
-@pause > nul
+rem echo press any button to start.
+rem @pause > nul
 echo start converting ....
 cd %~dp0
 node index.js --export
